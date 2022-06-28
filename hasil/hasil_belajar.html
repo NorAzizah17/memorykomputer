@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SISTEM MEMORI | SISTEM MEMORI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <nav class="navbar navbar-info">
+                    <!-- Navbar content -->
+                    <div class="card text-white text-center" style="background-color: rgb(29, 62, 153); width: 100%; border: 0;">
+                      <div class="card-body">
+                        <h2 class="card-title">Halaman Guru</h2>
+                        <h3 class="card-title">Hasil Belajar</h3>
+                      </div>
+                    </div>
+                  </nav>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row" style="height: 500px; width: 100%;">
+                        <div class="mb-1 col-sm bg-white border border-primary isicontent3">
+                          <div class="h5 font-weight-bold">
+                            <div class="card-body">
+                                <center> 
+                                    <div class="card-title-md">
+                                        <label for="sekolah">Sekolah : 
+                                            <select id="sekolah" name="sekolah" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                                                <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                                <option value="1">SMK Banjarmasin</option>
+                                            </select>
+                                        </label>
+
+                                        <label for="kelas">Kelas : 
+                                            <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH KELAS-">
+                                                <option value="0" selected="selected">-- PILIH KELAS --</option>
+                                                <option value="1">X A</option>
+                                                <option value="2">X B</option>
+                                                <option value="3">X C</option>
+                                                <option value="4">X D</option>
+                                                <option value="5">X E</option>
+                                                <option value="6">X F</option>
+                                                <option value="7">X G</option>
+                                            </select>
+                                        </label>
+
+                                        <label for="hasil">Hasil : 
+                                            <select id="kuis" name="kuis" class="mundur">
+                                                <option value="db_kuis1/" selected="selected">KUIS 1</option>
+                                                <option value="db_kuis2/">KUIS 2</option>
+                                                <option value="db_hasil/">EVALUASI</option>
+                                            </select>
+                                        </label>
+                                                
+                    
+                                        <button type="button" class="cari btn btn-primary" onclick="mencari()"><i class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
+                                        <button type="button" class="cari btn btn-primary download" onclick="downloadfile()"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
+                                    </div>
+                                </center>
+                                <br>
+                                <table id='table_wrapper' class="table">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th class="ukr1">Nama</td>
+                                            <th class="ukr3">Kelas</td>
+                                            <th class="ukr1">Sekolah</td>
+                                            <th class="ukr3">Skor</td>
+                                            <th class="ukr2">Hari</td>
+                                            <th class="ukr2">Waktu</td>
+                                            <th class="ukr4">Hapus</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="disini"></tbody>
+                                </table>
+                                <br>
+                                <center class="center">
+                                </center>
+                                <p class=" clear"></p>
+                                                
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; QE 2021</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Modal Download -->
+    <div class="modal fade" id="ModalDownload" tabindex="-1" role="dialog" aria-labelledby="ModalDownloadTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body bg-danger text-white">
+                Data masih kosong! Silahkan klik tombol Cari
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">kembali</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Filter -->
+    <div class="modal fade" id="ModalFilter" tabindex="-1" role="dialog" aria-labelledby="ModalFilterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body bg-danger text-white">
+                Tentukan filter pencarian!
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">kembali</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Hapus -->
+    <div class="modal fade" id="ModalHapus" tabindex="-1" role="dialog" aria-labelledby="ModalHapusTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+            <h5 class="modal-title text-center" id="ModalHapusTitle">Konfirmasi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            Apakah anda yakin ingin menghapus data?
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+            <button type="button" onclick="" class="btn btn-primary yakin">Yakin</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Hapus Semua-->
+    <div class="modal fade" id="ModalHapusAll" tabindex="-1" role="dialog" aria-labelledby="ModalHapusAllTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-success text-white">
+            <h5 class="modal-title text-center" id="ModalHapusAllTitle">Konfirmasi</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            Apakah anda yakin ingin menghapus semua data?
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Tidak</button>
+            <button type="button" onclick="" class="btn btn-primary yakinAll">Yakin</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    
+    <script src="../assets/js/script.js"></script>
+    <script src="../hasil/hasil.js"></script>
+
+</body>
+
+</html>

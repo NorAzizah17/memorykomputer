@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="scriptK1.js"></script>
+
+    <title>SISTEM MEMORI | SISTEM MEMORI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="mt-3 text-center d-none d-md-inline">
+                <button class="fas fa-bars border-0 float-left bg-info text-white" style="width: auto;" id="sidebarToggle"> Daftar Isi </button>
+            </div>
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-memory"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">SISTEM MEMORI KOMPUTER</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Materi 1 -->
+            <li class="nav-item active">
+                <a id="sub1" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi1"
+                    aria-expanded="true" aria-controls="materi1">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Karakteristik Sistem Memori Komputer</span>
+                </a>
+                <div id="materi1" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Karakteristik Sistem <br> Memori Komputer</h6>
+                        <a class="collapse-item" href="index.html" >Pengantar</a>
+                        <hr class="sidebar-divider my-0 bg-info">
+                        <a class="collapse-item text-white ml-3 mr-3 active">Pengertian Memori</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_2.html">Lokasi dan Kapasitas</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_3.html">Transfer dan Metode Akses</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_4.html">Kinerja dan Tipe Fisik</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="kuis1.html">Kuis 1</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Materi 2 -->
+            <li class="nav-item">
+                <a id="sub2" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi2"
+                    aria-expanded="true" aria-controls="materi2">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Memori dalam Sistem Komputer</span>
+                </a>
+                <div id="materi2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                  <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Memori dalam Sistem <br> Komputer</h6>
+                    <a class="collapse-item" onclick="index2();" style="cursor:pointer;">Pengantar</a>
+                    <hr class="sidebar-divider my-0 bg-info">
+                    <a class="collapse-item" onclick="sub2_1();" style="cursor:pointer;">RAM dan ROM</a>
+                    <hr class="sidebar-divider my-0 bg-info">  
+                    <a class="collapse-item" onclick="sub2_2();" style="cursor:pointer;">Alat Penyimpanan Data</a>
+                    <hr class="sidebar-divider my-0 bg-info">  
+                    <a class="collapse-item" onclick="kuis2();" style="cursor:pointer;">Kuis 2</a>
+                  </div>
+                </div>
+            </li>
+
+            
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Evaluasi -->
+            <li class="nav-item">
+                <a id="evaluasi" class="nav-link" onclick="evaluasi();" style="cursor:pointer;">
+                    <i class="fas fa-fw fa-file-signature"></i>
+                    <span>Evaluasi</span></a>
+            </li>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <h1 class="h3 headmateri mb-0 text-gray-800">Karakteristik Sistem Memori Komputer : Pengertian Memori</h1>
+                    </div>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row" style="height: 520px; width: 100%;">
+                        <div class="mb-1 col-sm bg-white border border-info isicontent">
+                          <div class="h5">
+                            <!-- <div class="text-truncate font-weight-bold">Pengertian Memori</div>
+                            <hr style="border-top: 3px dashed blue;"> -->
+                            <div class="isimateri">
+                                <div id="satu">
+                                  <div class="card border-info mb-3" style="max-width: 100%;">
+                                    <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Pengertian Memori</div>
+                                    <div class="card-body text-black" style="background-color: white;">
+                                      <div class="dlm">
+                                          Memori berarti ingatan. Dalam fungsi sebagai komponen komputer, memori adalah media penyimpanan data dan informasi. Berdasarkan metode penyimpanannya, komputer memiliki dua jenis memori, yaitu :
+                                      </div>
+                                      <ol>
+                                        <li>
+                                          Memori primer,  menyimpan data secara sementara (volatil). Jika aliran listrik mati, data akan hilang.
+                                        </li>
+                                        <li>
+                                          Memori sekunder, menyimpan data secara tetap. Kategori memori sekunder dapat dilihat pada komponen-komponen seperti hard disk, flash disk, CD, DVD, microSD, chip, floppy disk, dan lainnya.
+                                        </li>
+                                      </ol>
+                                        <br>
+                                      <center>
+                                        <div class="dlm">
+                                          Beberapa perangkat memori komputer yang sering ditemui sehari-hari ditunjukkan pada gambar berikut.
+                                        </div>
+                                        <div class="text-center">
+                                          <img src="../assets/img/memorikomputer.PNG" alt="Memori">
+                                        </div>
+                                        <br>
+                                          <i>Gambar 1. Beberapa perangkat memori yang sering ditemui</i>
+                                      </center>
+                                    </div>
+                                  </div>
+                                </div>     
+                                <div id="dua">
+                                  <div class="card border-info mb-3" style="max-width: 100%;">
+                                    <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Hirarki Memori</div>
+                                    <div class="card-body text-black" style="background-color: white;">
+                                      <div class="dlm">
+                                          Hirarki memori adalah sebuah pedoman yang dilakukan oleh para perancang demi menyetarakan kapasitas, waktu akses, dan harga memori untuk tiap bitnya. 
+                                      </div>
+                                        
+                                      <ol>
+                                        <li>Onboard Memory</li>
+                                        Onboard memory adalah memori dalam mainboard komputer yang sudah terintegrasi dan dapat secara langsung diakses oleh processor. Ada tiga jenis onboard memory yaitu  Register memory terletak dalam processor dan berfungsi membantu proses aritma dan logika dalam CPU, Cache memory (merupakan memori yang digunakan untuk mempercepat transfer data dari memori utama ke processor), dan memori utama (terletak di luar processor berfungsi untuk menyimpan data dan instruksi program).
+                                       <button onclick="lanjut1()" style="background-color: cornflowerblue; color: wheat; border-radius: 10px;">Lanjut</button>
+                                       <div id="lanjut1a" style="display: none;">
+                                        <li>Outboard Storage</li>
+                                        Outboard storage merupakan memori atau media penyimpanan yang memiliki kapasitas lebih besar dari onboard memory dan bersifat non-volatile dalam jangka waktu tertentu. Sebagai contoh, yaitu magnetic disk dan hard disk.
+                                        <button onclick="lanjut2()" style="background-color: cornflowerblue; color: wheat; border-radius: 10px;">Lanjut</button>
+                                       <div id="lanjut2b" style="display: none;">
+                                        <li>Off-Line Storage</li>
+                                        Off-Line Storage merupakan media penyimpanan yang memiliki kecepatan akses lebih lambat dari outboard storage, seperti cartridge tape dan worm. <br><br>
+                                        Tingkatan level memori dalam hirarki struktur sistem komputer memiliki beberapa karakteristik dari atas ke bawah ditunjukkan pada video berikut ini. 
+                                        </div>
+                                      </div>
+                                      </ol>
+
+                                      <b><i>*Tonton video berikut untuk memahami materi lebih jelas</i></b><br>
+                                        <br>
+                                      <center>
+                                        <iframe width="100%" height="500" src="https://drive.google.com/file/d/1wvnP31h6_RuQEGZSlaHh4SsxUOHIsnsC/preview"></iframe>
+                                        <br>
+                                    <i>Video 1. Hirarki Memori</i>
+                                      </center>
+                                      
+                                      <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Mari Berlatih</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                            <div class="dlm">
+                                              Setelah menonton video penjelasan materi diatas, marilah kita berlatih dengan menjawab pertanyaan berikut. 
+                                            </div>
+                                              <button onclick="lanjut3()" style="background-color: cornflowerblue; color: white; border-radius: 10px;">Petunjuk Pengerjaan</button>
+                                              <div id="lanjut3c" style="display: none;">
+                                              <ol>
+                                                <li>Pastikan kamu telah menonton video pembelajaran diatas dengan seksama agar bisa menjawab latihan berikut</li>
+                                                <li>Pilihlah jawaban yang benar dengan cara mengklik jawaban sesuai kemudian pindahkan ke kolom yang kosong</li>
+                                                <li>Setelah seluruh soal/pertanyaan selesai diisi, klik "Finish!" yang tertera pada bagian bawah lembar kerja</li>
+                                                <li>Selanjutnya klik "Check my answer"
+                                                </li>
+                                              </ol>
+                                            </div>
+                                            <div align="center" id="liveworksheet2984411" style="width:100%">
+                                              <span id="lwslink2984411"><font face="Arial" size="2"><a href="https://www.liveworksheets.com/worksheets/id/computer/Memory/Hirarki_qv2984411xg">Hirarki Memori Komputer</a> <a href="https://www.liveworksheets.com/user/pororo17"></a></font>
+                                              <br><a href="https://www.liveworksheets.com" style="text-decoration: none"></a></span>
+                                            </div>
+
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                </div>
+                                
+                                
+                            </div>
+                            <div id="tiga">
+                              <div class="kegiatan">
+                                <center>
+                                  <div class="card border-info mb-3" style="max-width: 100%;">
+                                    <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Mari Berlatih</div>
+                                    <div class="card-body text-black" style="background-color: white;">
+                                Berikut ini terdapat beberapa perangkat memori yang sering kita temukan dalam kehidupan sehari-hari. <br> Isilah kotak-kotak berikut sesuai dengan nama perangkat memori pada gambar.
+                        
+                                <table border="5px solid black" >
+                                  <tr>
+                                    <td ><img src="../assets/img/flashdisk.png" style="width:280px;height:240px;"></td>
+                                    <td><img src="../assets/img/harddisk.png"style="width:280px;height:250px;"></td>
+                                    <td><img src="../assets/img/ram.jpg"style="width:280px;height:250px;"></td>
+                                  </tr>
+                                  <tr>
+                                    <td><center><input type="text" placeholder="ketik jawaban disini ..." class="form-control input-course answer"></center></td>
+                                    <td><center><input type="text" placeholder="ketik jawaban disini ..." class="form-control input-course answer"></center></td>
+                                    <td><center><input type="text" placeholder="ketik jawaban disini ..." class="form-control input-course answer"></center></td>
+                                    <br>
+                                  </tr>
+                                </table>
+                                <div class="text-center">
+                                          <span id="message" class="my-5"></span>
+                                          <button type="button" class="btn btn-md btn-success mt-2 check">Periksa</button>
+                                        </div>
+                                <br>
+                                </center></div>
+                              </div>
+                              
+                            </div>
+                            <div id="empat">
+                              <div class="card border-info mb-3" style="max-width: 100%;">
+                                <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Mari Berlatih</div>
+                                <div class="card-body text-black" style="background-color: white;">
+                            
+                                    <form name="quiz" class="card-body">
+                                    
+                                    <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">1.	Memori merupakan suatu perangkat di dalam komputer yang memiliki fungsi untuk...</p>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi1" value="A" id="myRadio">&nbsp;Menyimpan data</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi1" value="B" id="myRadio">&nbsp;Menyalin data</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi1" value="C" id="myRadio">&nbsp;Memperbaiki data</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi1" value="D" id="myRadio">&nbsp;Memperbanyak data</br>
+                                    <span id="ket-no0"> </span><br><br>
+                                    
+                                    <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">2.	Memori primer merupakan memori yang memnyimpan data secara...</p>
+                                    
+                                    <input style="margin-left: 30px;" type="radio" name="opsi2" value="A" id="myRadio">&nbsp;Sementara</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi2" value="B" id="myRadio">&nbsp;Selamanya</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi2" value="C" id="myRadio">&nbsp;Tetap</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi2" value="D" id="myRadio">&nbsp;Non-volatile </br>
+                                    
+                                    <span id="ket-no1"></span><br><br>
+            
+                                    <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">3.	Memori sekunder merupakan memori yang menyimpan data secara...</p>
+            
+                                    <input style="margin-left: 30px;" type="radio" name="opsi3" value="A" id="myRadio">&nbsp;Sementara</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi3" value="B" id="myRadio">&nbsp;Tetap</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi3" value="C" id="myRadio">&nbsp;Tidak tetap</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi3" value="D" id="myRadio">&nbsp;Volatile</br>
+                                    <span id="ket-no2"></span><br><br>
+            
+                                    <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">4.	Pada hirarki memori, urutan teratas adalah...</p>
+            
+                                    <input style="margin-left: 30px;" type="radio" name="opsi4" value="A" id="myRadio">&nbsp;Off-Line Storage</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi4" value="B" id="myRadio">&nbsp;Outboard storage</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi4" value="C" id="myRadio">&nbsp;Onboard memory</br>
+                                    <input style="margin-left: 30px;" type="radio" name="opsi4" value="D" id="myRadio">&nbsp;Outoff memory</br>
+                                    <span id="ket-no3"></span>
+                                    </br>
+                                    </br>
+                                    <p id="ket" class="center ket-jwbn"></p>
+                                    <div class="left ket2" id="ket2"></div></p>
+                                    <input type="button" class="previous" value="Periksa" onclick="getScore(this.form);">
+                                    <input id="reset" type="reset" class="next" value="Coba Lagi">
+                                    
+                                
+                                </form>
+                            </div>
+                            </div>
+                                 </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                      <nav aria-label="...">
+                        <ul class="pagination">
+                          <li class="page-item disabled" id="btnprev">
+                            <a class="page-link ml-4" id="prev" onclick="" tabindex="-1" aria-disabled="true" style="cursor: pointer;">Previous</a>
+                          </li>
+                          <li class="page-item active"  id="btnsatu"><a class="page-link" onclick="satu();" style="cursor: pointer;">1</a></li>
+                              <li class="page-item" id="btndua"><a class="page-link" onclick="dua();" style="cursor: pointer;">2</a></li>
+                              <li class="page-item" id="btntiga"><a class="page-link" onclick="tiga();" style="cursor: pointer;">3</a></li>
+                              <li class="page-item" id="btnempat"><a class="page-link" onclick="empat();" style="cursor: pointer;">4</a></li>
+                              <li class="page-item" id="btnnext">
+                                <a id="next" class="page-link" onclick="dua();" style="cursor: pointer;">Next</a>
+                            </li>
+                          <li class="page-item" id="btnnext">
+                            <a class="page-link bg-info text-white ml-1" id="mnext" href="sub1_2.html" hidden>Materi Selanjutnya</a>
+                          </li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; QE 2021</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Modal Tabel -->
+    <div class="modal fade" id="modalPetunjuk" tabindex="-1" role="dialog" aria-labelledby="modalPetunjukTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <h5 class="modal-title text-white" id="modalPetunjukTitle">Petunjuk</h5>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>
+                        Pada tabel berikut silahkan beri tanda <img src="../assets/img/centang.png" width="30px" height="30px"> pada kolom memori atau pada kolom memori
+                    </li>
+                  <li>
+                      Jika jawaban anda benar, maka pada kolom keterangan akan muncul tulisan benar
+                  </li>
+                  <li>
+                      Jika jawaban anda salah, maka pada kolom keterangan akan muncul tulisan salah
+                    </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="mouseTes();" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Petunjuk -->
+    <div class="modal fade" id="modalPetunjuk2" tabindex="-1" role="dialog" aria-labelledby="modalPetunjuk2Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <h5 class="modal-title text-white" id="modalPetunjuk2Title">Petunjuk</h5>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>
+                        Jawablah pertanyaan berikut ini!
+                    </li>
+                    <li>
+                      Anda diminta memilih jawaban yang benar diantara pilihan jawaban
+                  </li>
+                  <li>
+                      Jika jawaban anda benar, maka akan tampil pembahasan bahwa jawaban anda benar
+                  </li>
+                  <li>
+                      Jika jawaban anda salah, maka akan tampil pembahasan bahwa jawaban anda salah
+                    </li>
+                    <li>
+                        Jika ingin mengulang menjawab pertanyaan, silahkan pilih jawaban
+                  </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="mouseTes();" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Terkunci -->
+    <div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog" aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h5 class="modal-title text-white" id="tutorialModalTitle">Konfirmasi</h5>
+            </div>
+            <div class="modal-body" style="color: black;">
+              Maaf, Kamu belum bisa membuka <span id="isiTutor"></span> ini! <br>
+              Silahkan pelajari terlebih dahulu <b>materi sebelumnya</b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script>
+      function lanjut1(){
+        const x = document.getElementById("lanjut1a");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "block";
+          }
+        }
+
+      function lanjut2(){
+        const x = document.getElementById("lanjut2b");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "block";
+        }
+        }
+
+        function lanjut3(){
+        const x = document.getElementById("lanjut3c");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "block";
+        }
+        }
+    </script>
+
+<!--script liveworksheet-->
+<script src="https://files.liveworksheets.com/embed/embed.js"></script>
+<script language="javascript">
+loadliveworksheet(2984411,'ylaneman',563,'www',3595990);
+</script>
+	
+	
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/tutorial.js"></script>
+</body>
+
+<script src="latihansoal1.js"></script>
+
+</html>

@@ -1,0 +1,319 @@
+.valign {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div2 {
+	float: left;
+	width: 100%;
+	height: 40px;
+	border: 1px solid black;
+  }
+
+.kontainer {
+	overflow-x: scroll; /* showing scrollbars */
+	overflow-y: hidden;
+}
+
+  .div1 {
+	float: left;
+	width: 100%;
+	height: 40px;
+  }
+
+.menu{
+  display: inline-block;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.menu:hover{
+  transform: scale(1.5);
+}
+
+.menu2{
+	display: inline-block;
+	transition: .5s;
+	cursor: pointer;
+  }
+  
+  .menu2:hover{
+	transform: scale(1.2);
+  }
+
+.content{
+	background:white;
+	width: 100%;
+	height: 500px;
+}
+.active{
+	background-color: cornflowerblue;
+}
+
+.btnkuis{
+	width: 2.7rem; 
+	border: 2px dotted #4fb6da;
+}
+
+.info{
+	font-size: 18px; 
+	padding: 10px;
+}
+
+.data {
+	width: 100%;
+}
+
+.petunjuk {
+	font-size: 18pt;
+	width: 50%;
+}
+
+.petunjuk2 {
+	font-size: 18pt;
+	width: 50%;
+}
+
+.tabel {
+	font-size: 14pt;
+	width: 45%;
+}
+
+.kuis {
+	width: 15%;
+}
+
+.bahan {
+	font-size: 14pt;
+}
+
+.kotakDrag {
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+	font-weight: bold;
+  }
+
+.kotakDrag2 {
+	width: auto;
+	height: 150px;
+	padding: 10px;
+	border: 1px solid #aaaaaa;
+	font-weight: bold;
+  }
+
+  .isi{
+	background-color:white;
+	height:100%;
+	width: 36%;
+	overflow-y:auto;
+	overflow-x: hidden;
+	font-family:candara;
+	font-size:17px;
+	line-height:1.5;
+	padding:2%;
+	text-align: justify ;
+	color:black;
+	float:left;
+	margin:0.5%;
+}
+
+.isi2{
+	background-color:white;
+	height:100%;
+	width: 50%;
+}
+
+.pembahasan{
+	border: 2px dotted #4fb6da;
+}
+.pembahasan2{
+	font-weight: bold;
+}
+
+.isicontent{
+	height:100%;
+	overflow-y:auto;
+	overflow-x: hidden;
+	font-family:Helvetica;
+	font-size:17px;
+	line-height:1.5;
+	padding:2%;
+	text-align: justify ;
+	float:left;
+	color: black;
+}
+
+.isicontent2{
+	height:100%;
+	overflow-y:auto;
+	overflow-x: hidden;
+	font-family:candara;
+	font-size:24px;
+	line-height:1.5;
+	padding:2%;
+	text-align: justify ;
+	float:left;
+}
+
+.isicontent3{
+	height:100%;
+	overflow-y:auto;
+	overflow-x: auto;
+	font-family:candara;
+	font-size:17px;
+	line-height:1.5;
+	padding:2%;
+	text-align: justify ;
+	float:left;
+	color: black;
+}
+
+.tablecek{
+	overflow-x: auto;
+	width: 50%;
+}
+
+.bord {
+	border: 2px solid #4fb6da;
+	padding-bottom: 10px;
+}
+
+.mengamati {
+	width: 20%; 
+	color: white; 
+	border: 2px solid #4fb6da; 
+	background: #4fb6da;
+	padding: 5px;
+}
+
+.subrangkum{
+	width: 35%;
+}
+
+.bordU {
+	width: auto; 
+	height: 450px; 
+	border: 3px dashed #4fb6da;
+}
+
+.dlm {
+	text-indent: 0.5in;
+	text-align: justify;
+}
+
+.headmateri {
+	font-size: 18pt;
+}
+
+.headmateri2 {
+	font-size: 18pt;
+}
+
+.video {
+	width: 60%; 
+	height: auto; 
+	margin-top: -10px;
+}
+
+.btnvideo {
+	font-size: 18px;
+}
+
+@media screen and (max-width: 992px){
+	.data {
+		width: 100%;
+	}
+
+	.kuis {
+		width: 50%;
+	}
+
+	.petunjuk {
+		font-size: 12pt;
+		width: 90%;
+	}
+
+	.tabel {
+		font-size: 12pt;
+		width: 80%;
+	}
+
+	.pagination {
+		font-size: 8pt;
+	}
+
+	.bahan {
+		font-size: 10pt;
+	}
+
+	.kotakDrag {
+		width: 100%;
+		height: 200px;
+		padding: 3px;
+		border: 1px solid #aaaaaa;
+		font-weight: bold;
+	  }
+	
+	.kotakDrag2 {
+		width: auto;
+		height: 200px;
+		padding: 3px;
+		border: 1px solid #aaaaaa;
+		font-weight: bold;
+	  }
+
+	.mengamati {
+		width: 55%; 
+		color: white; 
+		border: 2px solid #36b9cc; 
+		background: #36b9cc;
+		padding: 4px;
+	}
+
+	.subrangkum{
+		width: 60%;
+	}
+
+	.bordU {
+		width: auto; 
+		height: 100%; 
+		border: 3px dashed #4fb6da;
+	}
+
+	.headmateri {
+		font-size: 14pt;
+	}
+
+	.headmateri2 {
+		font-size: 12pt;
+	}
+
+	.video {
+		width: 75%; 
+		height: auto; 
+		margin-top: -10px;
+	}
+
+	.btnvideo {
+		font-size: 12px;
+	}
+
+	.petunjuk2 {
+		font-size: 14pt;
+		width: 70%;
+	}
+
+	.info{
+		font-size: 13px; 
+		padding: 10px;
+	}
+
+	.tablecek{
+		font-size: 10pt;
+		width: 50%;
+	}
+}

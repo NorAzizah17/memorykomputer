@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SISTEM MEMORI | SISTEM MEMORI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="mt-3 text-center d-none d-md-inline">
+                <button class="fas fa-bars border-0 float-left bg-info text-white" style="width: auto;" id="sidebarToggle"> Daftar Isi </button>
+            </div>
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-memory"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">SISTEM MEMORI KOMPUTER</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Materi 1 -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi1"
+                    aria-expanded="true" aria-controls="materi1">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Karakteristik Sistem Memori Komputer</span>
+                </a>
+                <div id="materi1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Karakteristik Sistem<br>Memori Komputer</h6>
+                        <a class="collapse-item" href="index.html">Pengantar</a>
+                        <hr class="sidebar-divider my-0 bg-info">
+                        <a class="collapse-item" href="sub1_1.html">Pengertian Memori</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_2.html">Lokasi dan Kapasitas</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_3.html">Transfer dan Metode Akses</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_4.html">Kinerja dan Tipe Fisik</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="kuis1.html">Kuis 1</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Materi 2 -->
+            <li class="nav-item active">
+                <a id="sub2" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi2"
+                    aria-expanded="true" aria-controls="materi2">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Memori dalam Sistem Komputer</span>
+                </a>
+                <div id="materi2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Memori dalam Sistem <br> Komputer</h6>
+                        <a class="collapse-item" onclick="index2();" style="cursor:pointer;">Pengantar</a>
+                        <hr class="sidebar-divider my-0 bg-info">
+                        <a class="collapse-item text-white ml-3 mr-3 active">RAM dan ROM</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" onclick="sub2_2();" style="cursor:pointer;">Alat Penyimpanan Data</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" onclick="kuis2();" style="cursor:pointer;">Kuis 2</a>
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Evaluasi -->
+            <li class="nav-item">
+                <a id="evaluasi" class="nav-link" onclick="evaluasi();" style="cursor:pointer;">
+                    <i class="fas fa-fw fa-file-signature"></i>
+                    <span>Evaluasi</span></a>
+            </li>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <h1 class="h3 mb-0 text-gray-800 headmateri">Memori dalam Sistem Komputer : RAM dan ROM</h1>
+                    </div>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row" style="height: 520px; width: 100%;">
+                        <div class="mb-1 col-sm bg-white border border-info isicontent">
+                          <div class="h5">
+                              <!-- <div class="text-truncate font-weight-bold">RAM dan ROM</div>
+                              <hr style="border-top: 3px dashed blue;"> -->
+                              <div class="isimateri">
+                                <div id="satu">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">RAM (Random Access Memory)</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                            <div class="dlm">
+                                                RAM adalah suatu hardware di dalam komputer yang berfungsi sebagai tempat penyimpanan data sementara memori dan berbagai instruksi program. RAM merupakan salah satu jenis memori semikonduktor dengan proses akses data dilakukan secara acak pada sel-sel memori. Ram dibagi menjadi 2 jenis:
+                                            </div>
+                                            
+                                          
+                                            
+                                            <ol>
+                                                <li>Static RAM (SRAM): Terdiri atas rangkaian bistable flip-flop. Sifatnya statis, data akan tetap utuh selama ada tegangan listrik</li>
+                                                <li>Dynamic RAM (DRAM): Menggunakan kombinasi transistor dan kapasitor. Sifatnya dinamis, data yang tersimpan selama tegangan mengalir dapat hilang atau berkurang</li>
+                                            </ol>
+                                            <div class="dlm">
+                                                Berikut ini adalah jenis-jenis RAM yang beredar secara umum. 
+                                            </div>
+                                            <ol>
+                                                <li>FPM (Fast Page Mode) : jenis RAM generasi lama, menerapkan modul SlMM (Single Inline Memory Module).</li>
+                                                <li>EDORAM (Extended Data Output RAM): Jenis RAM generasi awal. Dalam pemasangannnya di mainboard dapat berjumlah lebih dari satu. Adanya sebuah notch pada pin.</li>
+                                                <div class="text-center">
+                                                    <img src="../assets/img/edoram.png" alt="Memori">
+                                                    <br><i>Gambar 3. EDORAM</i>
+                                                </div>  
+                                                <li>SDRAM (Synchronous Dynamic RAM) : jenis DRAM dengan kecepatan lebih tinggi dari pada RAM generasi sebelumnya, jumlah pin sebanyak 168. Pada kaki-kaki pin terdapat dua notch.</li>
+                                                <div class="text-center">
+                                                    <img src="../assets/img/sdram.png" alt="Memori">
+                                                    <br><i>Gambar 4. SDRAM</i>
+                                                </div>
+                                                <li>DDR RAM (Double Data Rate RAM): Generasi dinamis. Memiliki 184 pin dengan satu notch di kakinya. (DDR, DDR2, DDR3, DDR4, dan DDR5).</li>
+                                                <center><iframe src="../x3dom/ddr1.html" width="500" height="300"></iframe><br><i>Gambar 5. DDR RAM</i></center>
+                                                <li>RDRAM (Rambus dinamic RAM) : mampu mendukung kecepatan bus hingga 800 MHz, tetapi memiliki jalur data yang sempit, yaitu 8 bit. Ciri fisik memori RDRAM adalah memiliki heat sink, jumlah pin sebanyak 232, dan hanya dapat digunakan oleh motherboard yang memiliki memory controller, misalnya 3dfx seri Voodoo4.</li>
+                                                <li>NVRAM (Non-Volatile RAM) merupakan salah satu jenis non-volatile yang digunakan untuk menyimpan hasil konfigurasi Router. </li>
+                                                <div class="text-center">
+                                                    <img src="../assets/img/nvram.png" alt="Memori">
+                                                    <br><i>Gambar 6. NVRAM</i>
+                                                </div>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    </div>
+                                <div id="dua">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">ROM (Read Only Memory)</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                    <div class="dlm">
+                                        Pengertian ROM (Read Only Memory) adalah jenis memori atau tempat penyimpanan data di dalam perangkat komputer yang sifatnya permanen. ROM merupakan salah satu jenis memori semikonduktor. Memori ini hanya dapat melakukan proses pembacaan (read) data karena data awal sudah ditetapkan (write) oleh pabrik pembuatnya.
+                                        ROM memiliki beberapa tipe, di antaranya adalah sebagai berikut. 
+                                    </div>
+                                    <ol>
+                                        <li><i>Programmable Read Only Memory</i>(PROM), merupakan memori ROM yang dapat diprogram atau diisi data pengguna. PROM disediakan dalam kondisi kosong oleh produsen pembuatnya sehingga memungkinkan pengguna dapat mengisi atau memprogram ROM tersebut, namun hanya dapat diprogram sekali saja.</li>
+                                        <li><i>Erasable Programmable Read Only Memory</i>(EPROM), merupakan pengembangan teknologi memori PROM yang dapat melakukan proses baca dan tulis lebih dari satu kali menggunakan sinar ultraungu. Cirí fisik yang dapat dilihat adalah terdapatnya lubang atau celah berupa jendela kaca pada punggung chip yang digunakan sebagai sarana melakukan penghapusan data melalui penyinaran sinar ultraungu pada celah tersebut. EPROM ditunjukkan oleh gambar sebagai berikut.</li>
+                                        <div class="text-center">
+                                            <img src="../assets/img/eprom.png" alt="Memori">
+                                            <br><i>Gambar 7. EPROM</i>
+                                        </div>
+                                    </ol>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div id="tiga">
+                                    <div class="card">
+                   
+                                        <h2 style="padding-left: 20px; padding-right: 20px;">Latihan</h2>
+                                    
+                                            <form name="quiz" class="card-body">
+                                            
+                                            <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">1. Jaringan dengan mencakup area operasi lebih kecil dari MAN tetapi lebih besar dari PAN (disebuah rumah atau kantor) adalah merupakan jenis jaringan...</p>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi1" value="A" id="myRadio">&nbsp;PAN (Personal Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi1" value="B" id="myRadio">&nbsp;WAN (Wide Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi1" value="C" id="myRadio">&nbsp;MAN (Metropolitan Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi1" value="D" id="myRadio">&nbsp;LAN (Local Area Network)</br>
+                                            <span id="ket-no0"> </span><br><br>
+                                            
+                                            <p>2. Perhatikan gambar di bawah ini!</p>
+                                              
+                                            <div class="text-left">
+                                                <img src="img/PAN.png" class="image-content" alt="PAN ">
+                                            </div>
+                                            <p style="margin-left: 20px;">Jenis  Jaringan apakah yang paling tepat digunakan untuk permasalahan tersebut ?</p>
+                                        
+                                    
+                                            <input style="margin-left: 30px;" type="radio" name="opsi2" value="A" id="myRadio">&nbsp;MAN (Metropolitan Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi2" value="B" id="myRadio">&nbsp;PAN (Personal Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi2" value="C" id="myRadio">&nbsp;WAN (Wide Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi2" value="D" id="myRadio">&nbsp;LAN (Local Area Network)</br>
+                                            
+                                            <span id="ket-no1"></span><br><br>
+                    
+                                            <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">3. Jaringan yang menghubungkan suatu wilayah atau suatu negara dengan negara lainnya adalah jenis jaringan...</p>
+                    
+                                            <input style="margin-left: 30px;" type="radio" name="opsi3" value="A" id="myRadio">&nbsp;WAN (Wide Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi3" value="B" id="myRadio">&nbsp;LAN (Local Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi3" value="C" id="myRadio">&nbsp;MAN (Metropolitan Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi3" value="D" id="myRadio">&nbsp;PAN (Personal Area Network)</br>
+                                            <span id="ket-no2"></span><br><br>
+                    
+                                            <p style="text-align: justify; text-indent: -1.3em ;margin-left: 1.3em;line-height: 2; color: black;">4. Jaringan komputer yang mencakup area yang luas sebagai contoh jaringan komputer antar daerah, kota atau bahkan negara, atau juga dapat didefinisikan sebagai jaringan komputer yang  membutuhkan router dan saluran komunikasi public dengan mencakup radius jaringan 10 sampai 120 kilometer dengan sesuai kebutuhan adalah jenis jaringan...</p>
+                    
+                                            <input style="margin-left: 30px;" type="radio" name="opsi4" value="A" id="myRadio">&nbsp;WAN (Wide Area Network)</br>
+                                            
+                                            <input style="margin-left: 30px;" type="radio" name="opsi4" value="B" id="myRadio">&nbsp;LAN (Local Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi4" value="C" id="myRadio">&nbsp;PAN (Personal Area Network)</br>
+                                            <input style="margin-left: 30px;" type="radio" name="opsi4" value="D" id="myRadio">&nbsp;MAN (Metropolitan Area Network)</br>
+                                            <span id="ket-no3"></span>
+                                            </br>
+                                            </br>
+                                            <p id="ket" class="center ket-jwbn"></p>
+                                            <div class="left ket2" id="ket2"></div></p>
+                                            <input type="button" class="previous" value="Periksa" onclick="getScore(this.form);">
+                                            <input id="reset" type="reset" class="next" value="Coba Lagi">
+                                            
+                                        
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                              <li class="page-item disabled" id="btnprev">
+                                <a class="page-link" id="prev" onclick="" tabindex="-1" aria-disabled="true" style="cursor: pointer;">Previous</a>
+                              </li>
+                              <li class="page-item active"  id="btnsatu"><a class="page-link" onclick="satu3();" style="cursor: pointer;">1</a></li>
+                              <li class="page-item" id="btndua"><a class="page-link" onclick="dua3();" style="cursor: pointer;">2</a></li>
+                              <li class="page-item" id="btntiga"><a class="page-link" onclick="tiga3();" style="cursor: pointer;">3</a></li>
+                              <li class="page-item" id="btnnext">
+                                <a id="next" class="page-link" onclick="dua3();" style="cursor: pointer;">Next</a>
+                              </li>
+                              <li class="page-item" id="btnnext">
+                                <a class="page-link bg-info text-white ml-1" id="mnext" href="sub2_2.html" hidden>Materi Selanjutnya</a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; QE 2021</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Modal Petunjuk -->
+    <div class="modal fade" id="modalPetunjuk2" tabindex="-1" role="dialog" aria-labelledby="modalPetunjuk2Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <h5 class="modal-title text-white" id="modalPetunjuk2Title">Petunjuk</h5>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>
+                        Jawablah pertanyaan berikut ini!
+                    </li>
+                    <li>
+                      Anda diminta memilih jawaban yang benar diantara pilihan jawaban
+                  </li>
+                  <li>
+                      Jika jawaban anda benar, maka akan tampil pembahasan bahwa jawaban anda benar
+                  </li>
+                  <li>
+                      Jika jawaban anda salah, maka akan tampil pembahasan bahwa jawaban anda salah
+                    </li>
+                    <li>
+                        Jika ingin mengulang menjawab pertanyaan, silahkan pilih jawaban
+                  </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="mouseTes();" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Terkunci -->
+    <div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog" aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h5 class="modal-title text-white" id="tutorialModalTitle">Konfirmasi</h5>
+            </div>
+            <div class="modal-body" style="color: black;">
+              Maaf, Kamu belum bisa membuka <span id="isiTutor"></span> ini! <br>
+              Silahkan pelajari terlebih dahulu <b>materi sebelumnya</b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+    
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/tutorial.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type='text/javascript' src="./x3dom.js"> </script> 
+        <link rel='stylesheet' type='text/css' href="./x3dom.css"></link> 
+    </head>
+    <body>
+        <x3d id='someUniqueId' showStat='false' showLog='false' x='0px' y='0px' height='420px'>
+            <scene>
+                <shape>
+                    <appearance>
+                        <imageTexture url='"./cartridgedepan.jpg"'></imageTexture>
+                    </appearance>
+                    <box size='8 5 0.01'></box>
+                </shape>
+                <transform translation='0 0 -0.02'>
+                    <shape>
+                        <appearance>
+                        <imageTexture url='"./cartridgebelakang.png"'></imageTexture>
+                        </appearance>
+                    <box size='8 5 0.01'></box>
+                    </shape>
+                </transform>
+            </scene>
+        </x3d>
+    </body>
+</html>

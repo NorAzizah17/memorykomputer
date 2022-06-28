@@ -1,0 +1,202 @@
+[
+	{
+		"id" : 1,
+		"soal" : "Kapasitas memori dinyatakan dalam satuan... ",
+		"a" : "Byte",
+		"b" : "doc",
+        "c" : "Jpg",
+        "d" : "Png",
+        "e" : "Html",
+        "jawaban" : "A"
+	},
+    {
+		"id" : 2,
+		"soal" : "Banyaknya bit data yang dapat dibaca (read) atau dituliskan (write) ke dalam memori pada suatu waktu adalah  ...",
+		"a" : "bit ",
+		"b" : "byte",
+        "c" : "word ",
+        "d" : "unit of transfer ",
+        "e" : "addressable units",
+        "jawaban" : "D" 
+	},
+    {
+		"id" : 3,
+		"soal" : "Memori adalah peranti dalam komputer yang berfungsi ...",
+		"a" : "Menganalisis data",
+		"b" : "Menyimpan data",
+        "c" : "Memproses data",
+        "d" : "Menginput data",
+        "e" : "Mempercepat proses data",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 4,
+		"soal" : "Berdasarkan pemrosesan data, yaitu jenis memori yang datanya akan hilang jika tidak dialiri daya listrik atau data bersifat sementara disebut memori ...",
+		"a" : "Konduktor",
+		"b" : "Isolator",
+        "c" : "Volatile",
+        "d" : "Non-volatile",
+        "e" : "Alternative",
+        "jawaban" : "C" 
+	},
+	{
+		"id" : 5,
+		"soal" : "Memori utama memiliki dua jenis, yaitu ...",
+		"a" : "CPU dan RAM",
+		"b" : "RAM dan ROM",
+        "c" : "ROM dan CPU",
+        "d" : "DVD dan ROM",
+        "e" : "RAM dan DVD",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 6,
+		"soal" : "Suatu hardware di dalam komputer yang berfungsi sebagai tempat penyimpanan data sementara (memori) dan berbagai instruksi program, merupakan pengertian... ...",
+		"a" : "DVD",
+		"b" : "ROM",
+        "c" : "CPU",
+        "d" : "RAM",
+        "e" : "PROM",
+        "jawaban" : "D" 
+	},
+	{
+		"id" : 7,
+		"soal" : "Jenis memori atau tempat penyimpanan data di dalam perangkat komputer yang sifatnya permanen sehingga tidak mudah berubah atau hilang walaupun komputer tiba-tiba mati, merupakan pengertian dari ...",
+		"a" : "CPU",
+		"b" : "ROM",
+        "c" : "RAM",
+        "d" : "PROM",
+        "e" : "Memori",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 8,
+		"soal" : "Dilihat dari lokasi penempatannya, memori dikategorikan menjadi tiga, yaitu ...",
+		"a" : "Memori sekunder, memori internal, dan memori eksternal",
+		"b" : "Memori cadangan, memori dalam CPU, dan memori internal",
+        "c" : "Memori dalam CPU, memori luar internal, dan memori eksternal",
+        "d" : "Memori dalam CPU, memori cadangan, dan memori internal.",
+        "e" : "Memori dalam CPU, memori internal, dan memori eksternal. ",
+        "jawaban" : "E" 
+	},
+	{
+		"id" : 9,
+		"soal" : "Semakin dekat letak memori dengan letak processor, kecepatan waktu akses (access time) juga semakin ...",
+		"a" : "Cepat",
+		"b" : "Lambat",
+        "c" : "Pelan",
+        "d" : "Melambat",
+        "e" : "Stabil ",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 10,
+		"soal" : "Mode atau metode akses pada memori dibagi menjadi empat, yaitu kecuali ...",
+		"a" : "Direct access",
+		"b" : "Random access",
+        "c" : "Stabil access",
+        "d" : "Sequential access",
+        "e" : "Associative access. ",
+        "jawaban" : "C" 
+	},
+	{
+		"id" : 11,
+		"soal" : "Jenis memori yang terbuat dari bahan yang dapat berfungsi sebagai konduktor atau isolator jika memperoleh perlakuan tertentu, merupakan pengertian ...",
+		"a" : "Memori konduktor",
+		"b" : "Memori isolator",
+        "c" : "Memori semikonduktor",
+        "d" : "Memori semi isolator",
+        "e" : "Memori konektivitas",
+        "jawaban" : "C" 
+	},
+	{
+		"id" : 12,
+		"soal" : "Pada kapasitas memori komputer 1 byte data setara dengan ...",
+		"a" : "10 bit ",
+		"b" : "13 bit",
+        "c" : "9 bit",
+        "d" : "8 bit",
+        "e" : "7 bit",
+        "jawaban" : "D" 
+	},
+	{
+		"id" : 13,
+		"soal" : "Piringan atau cakram bundar yang terbuat dari logam maupun plastik yang mampu menyimpan daya magnet sebagai media penyimpan data, merupakan pengertian dari ...",
+		"a" : "Kinetic disk",
+		"b" : "Magnetic disk",
+        "c" : "Sistematik disk",
+        "d" : "Optical disk",
+        "e" : "Flash disk",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 14,
+		"soal" : "Hard disk merupakan jenis media penyimpan dengan teknologi ...",
+		"a" : "Magnetic disk",
+		"b" : "Kinetic disk",
+        "c" : "Sistematik disk",
+        "d" : "Optical lens",
+        "e" : "Flash disk",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 15,
+		"soal" : "Untuk merekam data, tipe memori pita magnetic yang memanfaatkan pola magnet pada bagian ...",
+		"a" : "Bawah pita ",
+		"b" : "Dalam pita",
+        "c" : "Permukaan pita",
+        "d" : "Samping pita",
+        "e" : "Pertengahan pita",
+        "jawaban" : "c" 
+	},
+	{
+		"id" : 16,
+		"soal" : "Teknologi yang mengkombinasikan beberapa hardisk menjadi sebuah kesatuan penyimpanan untuk meningkatkan performa dan backup data adalah ...",
+		"a" : "Flashdisk",
+		"b" : "Hard disk",
+        "c" : "Magnetic disk",
+        "d" : "Teknologi RAID",
+        "e" : "Teknologi disk",
+        "jawaban" : "D" 
+	},
+	{
+		"id" : 17,
+		"soal" : "Media penyimpan yang menggunakan sinar laser dalam mengakses dan merekam data pada piringan yaitu ...",
+		"a" : "Optical lens",
+		"b" : "Pita magnetic",
+        "c" : "Flash disk",
+        "d" : "Teknologi RAID",
+        "e" : "Optical disk",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 18,
+		"soal" : "Memori pita magnetic yang memiliki bentuk seperti sebuah kaset video atau audio adalah ...",
+		"a" : "Cartridge tape",
+		"b" : "Flashdisk tape",
+        "c" : "Optical disk",
+        "d" : "Memori internal",
+        "e" : "Memori eksternal",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 19,
+		"soal" : "Jenis memori yang saat ini paling sering digunakan ketika mentransfer data dari perangkat komputer atau laptop adalah ...",
+		"a" : "DVD Multi Player",
+		"b" : "Flashdisk ",
+        "c" : "DVD-Readable",
+        "d" : "Cartridge tape",
+        "e" : "Teknologi RAID",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 20,
+		"soal" : "Mode akses data dalam memori secara acak tanpa mempedulikan urutan data dalam alamat memori, yaitu   ...",
+		"a" : "rotational ",
+		"b" : "sequential ",
+        "c" : "direct access ",
+        "d" : "random access ",
+        "e" : "associative access ",
+        "jawaban" : "D" 
+	}
+]

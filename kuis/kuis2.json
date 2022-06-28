@@ -1,0 +1,102 @@
+[
+	{
+		"id" : 1,
+		"soal" : "Suatu hardware di dalam komputer yang berfungsi sebagai tempat penyimpanan data sementara (memori) dan berbagai instruksi program, merupakan pengertian... ",
+		"a" : "DVD",
+		"b" : "ROM",
+        "c" : "CPU",
+        "d" : "RAM",
+        "e" : "PROM",
+        "jawaban" : "D"
+	},
+    {
+		"id" : 2,
+		"soal" : "RAM dapat dibagi menjadi dua jenis, yaitu ...",
+		"a" : "Static dan dynamic",
+		"b" : "Static dan static",
+        "c" : "Dynamic dan dynamic",
+        "d" : "Static dan linier",
+        "e" : "Dynamic dan linier",
+        "jawaban" : "A" 
+	},
+    {
+		"id" : 3,
+		"soal" : "Jenis memori atau tempat penyimpanan data di dalam perangkat komputer yang sifatnya permanen sehingga tidak mudah berubah atau hilang walaupun komputer tiba-tiba mati, merupakan pengertian dari ...",
+		"a" : "CPU",
+		"b" : "ROM",
+        "c" : "RAM",
+        "d" : "PROM",
+        "e" : "Memori",
+        "jawaban" : "C" 
+	},
+	{
+		"id" : 4,
+		"soal" : "Jenis memori ROM yang dapat melakukan proses baca tulis lebih dari satu kali menggunakan sinar ultra ungu adalah ...",
+		"a" : "ROM",
+		"b" : "PROM",
+        "c" : "EPROM",
+        "d" : "RAM",
+        "e" : "VRAM",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 5,
+		"soal" : "Jenis memori yang mampu menyimpan daya magnet sebagai media penyimpan data, merupakan pengertian dari ...",
+		"a" : "Kinetic disk",
+		"b" : "Magnetic disk",
+        "c" : "Sistematik disk",
+        "d" : "Optical disk",
+        "e" : "Flash disk",
+        "jawaban" : "B" 
+	},
+	{
+		"id" : 6,
+		"soal" : "Hard disk merupakan jenis media penyimpan dengan teknologi ...",
+		"a" : "Magnetic disk",
+		"b" : "Kinetic disk",
+        "c" : "Sistematik disk",
+        "d" : "Optical disk",
+        "e" : "Flash disk",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 7,
+		"soal" : "Tipe memori yang memanfaatkan pola magnet pada bagin permukaan pita untuk merekam data yaitu ...",
+		"a" : "Pita magnetic",
+		"b" : "Optical disk",
+        "c" : "Magnetic disk",
+        "d" : "Kinetic disk",
+        "e" : "Flash disk",
+        "jawaban" : "A" 
+	},
+	{
+		"id" : 8,
+		"soal" : "Teknologi yang mengkombinasikan beberapa hardisk menjadi sebuah kesatuan penyimpanan untuk meningkatkan performa dan backup data adalah ...",
+		"a" : "Flashdisk",
+		"b" : "Hard disk",
+        "c" : "Magnetic disk",
+        "d" : "Teknologi RAID",
+        "e" : "Teknologi disk",
+        "jawaban" : "D" 
+	},
+	{
+		"id" : 9,
+		"soal" : "Media penyimpan yang menggunakan sinar laser dalam mengakses dan merekam data pada piringan yaitu ...",
+		"a" : "Optical lens",
+		"b" : "Pita magnetic",
+        "c" : "Flash disk",
+        "d" : "Teknologi RAID",
+        "e" : "Optical disk",
+        "jawaban" : "E" 
+	},
+	{
+		"id" : 10,
+		"soal" : "Pada kegiatan sehari-hari ketika melakukan pengerjaan dokumen komputer,  memori penyimpanan data yang digunakan agar data dokumen tersimpan secara permanen yaitu ...",
+		"a" : "DVD_R",
+		"b" : "ROM",
+        "c" : "RAM",
+        "d" : "DVD",
+        "e" : "Cache",
+        "jawaban" : "B" 
+	}
+]

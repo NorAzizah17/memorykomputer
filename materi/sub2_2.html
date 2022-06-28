@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SISTEM MEMORI | SISTEM MEMORI</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="mt-3 text-center d-none d-md-inline">
+                <button class="fas fa-bars border-0 float-left bg-info text-white" style="width: auto;" id="sidebarToggle"> Daftar Isi </button>
+            </div>
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-memory"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">SISTEM MEMORI KOMPUTER</div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Materi 1 -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi1"
+                    aria-expanded="true" aria-controls="materi1">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Karakteristik Sistem Memori Komputer</span>
+                </a>
+                <div id="materi1" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Karakteristik Sistem<br>Memori Komputer</h6>
+                        <a class="collapse-item" href="index.html">Pengantar</a>
+                        <hr class="sidebar-divider my-0 bg-info">
+                        <a class="collapse-item" href="sub1_1.html">Pengertian Memori</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_2.html">Lokasi dan Kapasitas</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_3.html">Transfer dan Metode Akses</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="sub1_4.html">Kinerja dan Tipe Fisik</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" href="kuis1.html">Kuis 1</a>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Materi 2 -->
+            <li class="nav-item active">
+                <a id="sub2" class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#materi2"
+                    aria-expanded="true" aria-controls="materi2">
+                    <i class="fas fa-fw fa-file-alt"></i>
+                    <span>Memori dalam Sistem Komputer</span>
+                </a>
+                <div id="materi2" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Memori dalam Sistem <br> Komputer</h6>
+                        <a class="collapse-item" onclick="index2();" style="cursor:pointer;">Pengantar</a>
+                        <hr class="sidebar-divider my-0 bg-info">
+                        <a class="collapse-item" onclick="sub2_1();" style="cursor:pointer;">RAM dan ROM</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item text-white ml-3 mr-3 active">Alat Penyimpanan Data</a>
+                        <hr class="sidebar-divider my-0 bg-info">  
+                        <a class="collapse-item" onclick="kuis2();" style="cursor:pointer;">Kuis 2</a>
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Evaluasi -->
+            <li class="nav-item">
+                <a id="evaluasi" class="nav-link" onclick="evaluasi();" style="cursor:pointer;">
+                    <i class="fas fa-fw fa-file-signature"></i>
+                    <span>Evaluasi</span></a>
+            </li>
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between">
+                        <h1 class="h3 mb-0 text-gray-800 headmateri">Memori dalam Sistem Komputer : Alat Penyimpanan Data</h1>
+                    </div>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Content Row -->
+                    <div class="row" style="height: 520px; width: 100%;">
+                        <div class="mb-1 col-sm bg-white border border-info isicontent">
+                          <div class="h5">
+                              <!-- <div class="text-truncate font-weight-bold">Rangkaian Memori Ram</div>
+                              <hr style="border-top: 3px dashed blue;"> -->
+                              <div class="isimateri">
+                                <div id="satu">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Magnetic Disk</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                            <div class="dlm">
+                                                Magnetic disk adalah piringan atau cakram bundar yang terbuat dari logam maupun plastik yang mampu menyimpan daya magnet sebagai media penyimpan data. Karakteristik utama sebuah memori sekunder bertipe magnetic disk adalah sebagai berikut.
+                                            </div>
+                                                
+                                             
+                                            <ol>
+                                                <li>Head Moving</li>
+                                                Head Moving memiliki dua jenis head-peranti yang bertugas menulis dan membaca data pada piringan, yaitu sebagai berikut.
+                                                <ol type="a">
+                                                    <li>Fixed head disk, berfungsi untuk membaca atau menulis per track</li>
+                                                    <li>Moved head disk, hanya terdapat sebuah head baca atau tulis pada permukaan disk yang bergerak maju mundur untuk mencari data dalam sebuah wilayah track.</li>
+                                                </ol>
+                                                <li>Disk Portability </li>
+                                                Ada dua jenis disk jika dilihat dari model penempatannya, di antaranya sebagai berikut.
+                                            <ol type="a">
+                                                <li>Permanent disk, yaitu disk yang ditempatkan secara permanen pada drive</li>
+                                                <li>Removable disk, yaitu piringan yang dapat dilepas dan diganti dengan disk lain</li>
+                                            </ol>
+                                        <li>Surface</li>
+                                            <ol type="a">
+                                                <li>Double side, yaitu dua piringan yang dapat menyimpan data magnetic</li>
+                                                <li>Single side, hanya satu sisi piringan yang dapat menyimpan data magnetic</li>
+                                            </ol>
+                                            <li>Sum of disk </li>
+                                            <ol type="a">
+                                                <li>Single platter, hanya terdapat sebuah piringan dalam drive</li>
+                                                <li>Multi platter, dapat memiliki lebih dari sebuah piringan dalam drive</li>
+                                            </ol>
+                                        </ol>
+                                        
+                                        Berikut ini adalah beberapa contoh peranti yang menggunakan teknologi magnetic disk dalam melakukan penyimpanan data.
+                                        <ol>
+                                            <li>Floppy Disk</li>
+                                            Floppy disk merupakan salah satu jenis memori sekunder yang memiliki kemampuan baca-tulis data. Jenis memori sekunder ini terdiri atas piringan dengan dua tipe diameter, yaitu 5 inci dan 3 inci. Struktur cakram dalam floppy disk terdiri atas bagian-bagian yaitu Track, Sector, dan Boot area.
+                                            <li>Hard disk </li>
+                                            Hardisk adalah jenis media penyimpan dengan teknologi magnetic disk yang memiliki karakteristik moved head disk, permanent disk, double side, dan multi platter. Bagian dalam hardisk yaitu  Platter, Spindle, Head, dan Logic board.
+                                        </ol>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                                <div id="dua">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Pita Magnetik</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                    <div class="dlm">
+                                        Pita magnetik (magnetic tape) adalah media penyimpan data yang terbuat dari campuran plastik dan ferric oxide seperti pita untuk menyimpan informasi secara batch. Konsep kerja pembacaan dan penulisan data pada pita dilakukan secara berurutan menggunakan head (tape head). 
+                                     Ada dua tipe media penyimpanan berbasis pita magnetic, di antaranya sebagai berikut. 
+                                    </div>
+                                    <ol>
+                                        <li>Reel To Reel Tape, merupakan teknologi pita paling awal dengan lebar 1/2 inci dan panjang 2.400 feet. </li>
+                                        <div class="text-center">
+                                            <img src="../assets/img/reeltape.png" alt="Memori">
+                                        </div>
+                                        <li>Cartridge Tape,memiliki bentuk seperti sebuah kaset video atau audio. Pita magnetik tipe ini sering digunakan sebagai media penyimpanan pada komputer mini.</li>
+                                        <div class="text-center">
+                                            <img src="../assets/img/cartridge.png" alt="Memori">
+                                        </div>
+                                    </ol>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div id="tiga">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Teknologi RAID</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                    <div class="dlm">
+                                        RAID (Redundant Array of Independent Disks) merupakan penyimpanan data (data storage) dengan mengkombinasikan dan mengintegrasikan beberapa hard drive menjadi satu kesatuan unit. Tujuannya adalah untuk meningkatkan keandalan akses data, performa data, dan I/O hard disk.         
+                                        Ada beberapa jenis standar dalam teknologi RAID, yaitu sebagai berikut.
+                                    </div>
+                                    <ol>
+                                        <li>RAID 0</li>
+                                        Standar ini menggunakan metode striping (striping adalah proses membagi data ke dalam beberapa blok) tanpa adanya fitur redundansi data dan fault tolerance (maksimal jumlah kerusakan hard disk dalam skema RAID yang menyebabkan kerusakan data). Data akan disimpan secara menyebar ke setiap hard disk. Akibatnya, jika salah satu hard disk rusak, data tersebut juga hilang. RAID 0 ditunjukkan pada gambar berikut.
+                                        <div class="text-center"><img src="../assets/img/raid0.png" alt="Memori"></div>
+                                        <li>RAID 1</li>
+                                        Sistem ini memerlukan minimal dua hard disk (berjumlah genap) dengan menggunakan metode mirroring (menyalin isi sebuah hardisk ke hardisk lain dengan tujuan sebagai back up) tanpa parity atau metode striping. Standar RAID 1 ditunjukkan pada gambar berikut.
+                                        <div class="text-center"><img src="../assets/img/raid1.png" alt="Memori"></div>
+                                        <li>RAID 2</li>
+                                        Standar ini menggunakan sistem striping dengan memanfaatkan model parity hamming sebagai back up data jika salah satu hard disk rusak. Tiga harddisk terakhir berfungsi untuk menyimpan hamming code dari setiap bit yang ada di hardisk utama. 
+                                        <li>RAID 3</li>
+                                        Standar RAID 3 juga menggunakan sistem striping. Hard disk yang terakhir berfungsi sebagai penyimpan parity hasil perhitungan setiap bit dalam hardisk utama.
+                                        <li>RAID 4</li>
+                                        Metode yang digunakan mirip dengan sistem RAID 3, tetapi informasi parity yang digunakan adalah informasi dari setiap blok hard disk.
+                                        <li>RAID 5</li>
+                                        Konsepnya sama seperti RAID 4, yaitu menggunakan metode striping pada saat write. Selanjutnya, setiap data Informasi parity langsung didistribusikan ke setiap hard disk yang terhubung dengan sistem RAID 5. Standar RAID 5 ditunjukkan pada gambar berikut.
+                                        <div class="text-center"><img src="../assets/img/raid5.png" alt="Memori"></div>
+                                        <li>RAID 6</li>
+                                        RAID 6 merupakan perbaikan sistem RAID 5 dengan menambahkan informasi parity menjadi dua, yaitu p dan q. Standar RAID 6 ditunjukkan pada gambar berikut.
+                                        <div class="text-center"><img src="../assets/img/raid6.png" alt="Memori"></div>
+                                        <li>RAID 10</li>
+                                        Standar RAID 10 merupakan gabungan dari RAID 1 dan RAID O atau sering disebut sebagai nested RAID. Jumlah hard disk minimal, yaitu empat. Tujuannya untuk meningkatkan performa read/write serta proteksi data yang baik. Standar RAID 10 ditunjukkan pada gambar berikut.
+                                        <div class="text-center"><img src="../assets/img/raid10.png" alt="Memori"></div>
+                                    </ol>
+                                    </div>
+                                    </div>
+                                </div> 
+                                <div id="empat">
+                                    <div class="card border-info mb-3" style="max-width: 100%;">
+                                        <div class="card-header bg-info text-white " style= "font-family: helvetica; font-size: 20px;">Optikal Disk</div>
+                                        <div class="card-body text-black" style="background-color: white;">
+                                    <div class="dlm">
+                                        Optical disk merupakan media penyimpan yang menggunakan sinar laser dalam mengakses dan merekam data pada piringan. Optical disk terbuat dari bahan-bahan optic yang terbuat dari resin (polycarbonate) yang permukaannya dilapisi bahan reflektif, misalnya alumunium. Bahan ini memungkinkan data dapat ditulis dan dibaca menggunakan teknologi laser. Ciri utama sebuah media penyimpan optical disk adalah sebagai berikut.
+                                    </div>
+                                    <ol type="a">
+                                        <li>Memiliki kapasitas penyimpanan data dalam Jumlah besar hingga ukuran gigabyte. </li>
+                                        <li>Menggunakan teknologi laser untuk menulis dan membaca data pada disk.</li>
+                                        <li>Akses data cukup cepat yang bergantung pada putaran disk.</li>
+                                    </ol>
+                                    <div class="text-center">
+                                        <img src="../assets/img/jenisoptikaldisk.png" alt="Memori">
+                                    </div>
+
+                                    Optikal disk terbagi menjadi beberapa jenis, sebagai berikut.
+                                    <ol>
+                                        <li>Laserdisc (LD)</li>
+                                        Karakteristik utama LD adalah piringan optic dengan diameter 11,81 inci (30 cm). Kedua sisi permukaan dapat digunakan untuk menyimpan data, misalnya video atau film. Penulisan dan pembacaan data dalam format analog menggunakan sinar laser.
+                                        <button onclick="lanjut1()" style="background-color: cornflowerblue; color: wheat; border-radius: 10px;">Lanjut</button>
+                                        <div id="lanjut1a" style="display: none;">
+                                        <li>Compact Disk (CD)</li>
+                                        Media compact disk memiliki karakteristik utama yaitu cakram optic yang memiliki diameter 120 mm dengan tebal 1,2 mm, lubang disk sebagai dudukan poros pemutar berdiameter 15 mm yang terletak di tengah, memiliki kapasitas penyimpanan hingga 720 MB, dan menggunakan metode sinar laser untuk menulis dan membaca data pada piringan tersebut. Ada dua jenis media CD yang beredar dalam pasaran sekarang, yaitu sebagai berikut.
+                                        <ol type="a">
+                                            <li>CD-R (Compact Disk Readable), adalah jenis CD yang hanya dapat sekali dilakukan perekaman data.</li>
+                                            <li>CD-RW (Compact Disk Rewritable), merupakan jenis CD yang dapat berulang kali dilakukan proses penulisan data.</li>
+                                        </ol>
+                                        CD-R dan CD-RW ditunjukkan pada gambar berikut.
+                                        <div class="text-center">
+                                            <img src="../assets/img/cd.png" alt="Memori">
+                                        </div>
+                                        <li>Mini Disk</li>
+                                        Mini disk memiliki diameter piringan sebesar 64 mm yang mampu menyimpan data audio selama 74 menit atau 80 menit. MD dapat digunakan untuk menyimpan data yang mampu menampung hingga 1 GB.
+                                        <button onclick="lanjut2()" style="background-color: cornflowerblue; color: wheat; border-radius: 10px;">Lanjut</button>
+                                       <div id="lanjut2b" style="display: none;">
+                                        <li>DVD (Digital Video Disc atau Digital Versatile Disc)</li>
+                                        DVD merupakan pengembangan dari CD dengan kapasitas yang jauh lebih besar, berkisar antara 4,7-17 GB. Jenis DVD berdasarkan sistem perekaman data dapat dibedakan menjadi beberapa yaitu DVD-Readable, DVD-Rewritable, DVD RAM, dan DVD Multi Layer (DVD-ML). DVD multi layer dan DVD-RW ditunjukkan gambar berikut.
+                                        <div class="text-center">
+                                            <img src="../assets/img/dvd.png" alt="Memori">
+                                        </div>
+                                    </ol>
+                                    </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row mt-1">
+                        <nav aria-label="...">
+                            <ul class="pagination">
+                              <li class="page-item disabled" id="btnprev">
+                                <a class="page-link" id="prev" onclick="" tabindex="-1" aria-disabled="true" style="cursor: pointer;">Previous</a>
+                              </li>
+                              <li class="page-item active"  id="btnsatu"><a class="page-link" onclick="satu();" style="cursor: pointer;">1</a></li>
+                              <li class="page-item" id="btndua"><a class="page-link" onclick="dua();" style="cursor: pointer;">2</a></li>
+                              <li class="page-item" id="btntiga"><a class="page-link" onclick="tiga();" style="cursor: pointer;">3</a></li>
+                              <li class="page-item" id="btnempat"><a class="page-link" onclick="empat();" style="cursor: pointer;">4</a></li>
+                              <li class="page-item" id="btnnext">
+                                <a id="next" class="page-link" onclick="dua();" style="cursor: pointer;">Next</a>
+                              </li>
+                              <li class="page-item" id="btnnext">
+                                <a class="page-link bg-info text-white ml-1" id="mnext" href="kuis2.html" hidden>Kuis 2</a>
+                              </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <!-- <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; QE 2021</span>
+                    </div>
+                </div>
+            </footer> -->
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Modal Petunjuk -->
+    <div class="modal fade" id="modalPetunjuk2" tabindex="-1" role="dialog" aria-labelledby="modalPetunjuk2Title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-success">
+              <h5 class="modal-title text-white" id="modalPetunjuk2Title">Petunjuk</h5>
+            </div>
+            <div class="modal-body">
+                <ol>
+                    <li>
+                        Jawablah pertanyaan berikut ini!
+                    </li>
+                    <li>
+                      Anda diminta memilih jawaban yang benar diantara pilihan jawaban
+                  </li>
+                  <li>
+                      Jika jawaban anda benar, maka akan tampil pembahasan bahwa jawaban anda benar
+                  </li>
+                  <li>
+                      Jika jawaban anda salah, maka akan tampil pembahasan bahwa jawaban anda salah
+                    </li>
+                    <li>
+                        Jika ingin mengulang menjawab pertanyaan, silahkan pilih jawaban
+                  </li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" onclick="mouseTes();" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal Terkunci -->
+    <div class="modal fade" id="tutorialModal" tabindex="-1" role="dialog" aria-labelledby="tutorialModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h5 class="modal-title text-white" id="tutorialModalTitle">Konfirmasi</h5>
+            </div>
+            <div class="modal-body" style="color: black;">
+              Maaf, Kamu belum bisa membuka <span id="isiTutor"></span> ini! <br>
+              Silahkan pelajari terlebih dahulu <b>materi sebelumnya</b>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">OK</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <script>
+        function lanjut1(){
+          const x = document.getElementById("lanjut1a");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "block";
+            }
+          }
+  
+        function lanjut2(){
+          const x = document.getElementById("lanjut2b");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "block";
+          }
+          }
+      </script>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../assets/js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="../assets/js/demo/chart-area-demo.js"></script>
+    <script src="../assets/js/demo/chart-pie-demo.js"></script>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/tutorial.js"></script>
+
+</body>
+
+</html>
