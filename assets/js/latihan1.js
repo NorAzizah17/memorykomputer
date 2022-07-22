@@ -18,7 +18,7 @@ const firebaseConfig = {
   
   let loop1;
   let kkm1 = 0;
-  let tokenNew = 0;
+  let tokenNew = 12345;
   
   function kkmSuccess(items1) {
     kkm1 = items1.val()[0]['kkm'];
